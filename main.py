@@ -9,7 +9,7 @@ df["Average"] = df.apply(calculate_average, axis=1)
 df["Grade"] = df["Average"].apply(assign_grade)
 df["Result"] = np.where(df["Average"] >= 40, "Pass", "Fail")
 
-# Perform analysis
+# # Perform analysis
 print("📊 Class Average:", df["Average"].mean())
 print("✅ Total Passed:", (df["Result"] == "Pass").sum())
 print("❌ Total Failed:", (df["Result"] == "Fail").sum())
@@ -22,3 +22,5 @@ print(df[["Math", "Physics", "CS"]].mean())
 
 print("\n🔝 Highest Total:", df["Total"].max())
 print("🔻 Lowest Total:", df["Total"].min())
+
+
