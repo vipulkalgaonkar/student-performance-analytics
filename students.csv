@@ -1,0 +1,16 @@
+StudentID,Name,Department,Math,Physics,CS,Attendance
+1,Vipul,CE,85,78,92,90
+2,Ravi,IT,45,55,60,70
+3,Neha,ME,95,88,91,95
+4,Anjali,CE,72,65,80,85
+5,Sachin,IT,38,42,35,60
+6,Pooja,ME,88,90,84,92
+7,Amit,CE,56,60,58,75
+8,Kiran,IT,66,70,72,80
+9,Meena,ME,92,95,89,96
+10,Arjun,CE,40,45,50,65
+11,Sunita,IT,78,82,76,88
+12,Rahul,ME,55,60,52,70
+13,Komal,CE,83,85,87,93
+14,Deepak,IT,61,58,64,72
+15,Shreya,ME,90,92,94,97
